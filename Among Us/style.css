@@ -1,0 +1,129 @@
+.play1 {
+background-color: rgb(44, 38, 131);
+height: 400px;
+width: 280px;
+border: 20px solid #000000;
+border-bottom: none;
+border-radius: 130px 170px 0 0;
+margin: 10%;
+z-index: 1;
+transition: all 1s;
+cursor: pointer;
+}
+
+.play1:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+.play1::after {
+    content: "";
+    height: 360px;
+    width: 260px;
+    margin-left: 1%;
+    position: absolute;
+    background-color: rgb(85, 73, 250);
+    border-radius: 58% 70% 28% 42% / 28% 56% 88% 89%;
+    }
+
+.oculos{
+    height: 135px;
+    width: 230px;
+    background-color: #225381;
+    z-index: 2;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 5%;
+    border-radius: 50px 100px 60px 60px ;
+    border: 20px solid black;
+    z-index: 1;
+}
+
+.oculos:after{
+    content: "";
+    position: absolute;
+    height: 22%;
+    width: 45%;
+    left: 78px;
+    top: 10px;
+    border-radius: 10px;
+    margin-left: 12%;
+    background-color: #f7f7f7;
+    transform: rotate(4deg);
+    animation: a 2s infinite;
+}
+
+.oculos:before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0%;
+    height: 65%;
+    width: 85%;
+    margin-top: 0%;
+    background-color: #51dafc;
+    border-radius: 0 56px 6px 60px;
+}
+
+.pes1{
+    height: 110px;
+    width: 100px;
+    position: absolute;
+    background-color: rgb(44, 38, 131);
+    border: 20px solid #000000;
+    border-top: none;
+    border-radius: 0 0 44px 44px;
+    margin-top: 400px;
+    margin-left: -20px;
+    z-index: 1;
+}
+
+.pes2:before{
+    content: "";
+    height: 20px;
+    width: 110px;
+    background-color: #000000;
+    position: absolute;
+    top: 0px;
+    left: -80px;
+    border-radius: 0 0 20px 0;
+}
+
+.pes2{
+    content: "";
+    height: 110px;
+    width: 100px;
+    position: absolute;
+    background-color: rgb(44, 38, 131);
+    border: 20px solid #000000;
+    border-top: none;
+    border-radius: 0 0 44px 44px;
+    margin-top: 400px;
+    margin-left: 160px;
+    z-index: 1;
+}
+
+.jetpack {
+    height: 222px;
+    width: 60px;
+    position: absolute;
+    background-color: rgb(85, 73, 250);
+    border: 20px solid #000000;
+    border-right: none;
+    border-radius: 44px 0 0px 44px;
+    margin-top: 150px;
+    margin-left: -100px;
+    z-index: 1;
+}
+
+.jetpack:after{
+    content: "";
+    position: absolute;
+    margin-top: 80%;
+    height: 175px;
+    width: 60px;
+    background-color: rgb(44, 38, 131);
+    border-radius: 20px 0 0 24px;
+}
+
